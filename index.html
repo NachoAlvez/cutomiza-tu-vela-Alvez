@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Diseña la vela a TU gusto, mezclando los mejores aromas disponibles con la gran variedad de decoraciones">
+    <meta name="keywords" content="Vela, Aromas, Diseño, Customizá, Decoración">
+    <title>Customiza tu vela - Luffe Velas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+     <!-- FontAwesomw -->
+     <script src="https://kit.fontawesome.com/97be1c3bb4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <main>
+        <h1 class="titulo"> <strong>Elegí tu vela!</strong></h1>
+        <section class="container__custom">
+            <div class="custom__paper">
+                <div class="custom__paper--title">
+                    1. Elegí el aroma
+                </div>
+                <form action="">
+                    <!-- Bamboo -->
+                    <input type="radio" name="bandtype" id="1" class="hidebx aroma" value="bamboo">
+                    <label for="1" class="lbl-radio">
+                        <div class="display-box">
+                            <div > <img class="custom__container--img" src="https://img.icons8.com/external-wanicon-lineal-color-wanicon/64/000000/external-bamboo-chinese-new-year-wanicon-lineal-color-wanicon.png"/> </div>
+                            <div class="description">Bamboo</div>
+                        </div>
+                    </label>
+                    <!-- Lavanda -->
+                    <input type="radio" name="bandtype" id="2" class="hidebx aroma" value="lavanda">
+                    <label for="2" class="lbl-radio">
+                        <div class="display-box">
+                            <div><img class="custom__container--img" src="https://img.icons8.com/external-tulpahn-outline-color-tulpahn/64/000000/external-lavender-hokkaido-tulpahn-outline-color-tulpahn.png"/>
+                            </div>
+                            <div class="description">Lavanda</div>
+                        </div>
+                    </label>
+                    <!-- Rosa -->
+                    <input type="radio" name="bandtype" id="3" class="hidebx aroma" value="rosa">
+                    <label for="3" class="lbl-radio">
+                        <div class="display-box">
+                            <div> <img class="custom__container--img" src="https://img.icons8.com/cute-clipart/64/000000/rose.png"/> </div>
+                            <div class="description">Rosa</div>
+                        </div>
+                    </label>
+                    <!-- Vainilla -->
+                    <input type="radio" name="bandtype" id="4" class="hidebx aroma" value="vainilla">
+                    <label for="4" class="lbl-radio">
+                        <div class="display-box">
+                            <div> <img class="custom__container--img" src="https://img.icons8.com/external-ddara-flat-ddara/64/000000/external-vanilla-natural-scent-ddara-flat-ddara.png"/> </div>
+                            <div class="description">Vainilla</div>
+                        </div>
+                    </label>
+                </form>
+            </div>
+
+            <div class="custom__paper">
+                <div class="custom__paper--title">
+                    2. Elegí la decoración
+                </div>
+                <form action="">
+                    <!-- Cristales -->
+                    <input type="radio" name="bandtyp" id="5" class="hidebx deco" value="cristales">
+                    <label for="5" class="lbl-radio">
+                        <div class="display-box">
+                            <div> <img class="custom__container--img" src="https://img.icons8.com/office/64/000000/ruby-programming-language.png"/> </div>
+                            <div class="description">Cristales</div>
+                        </div>
+                    </label>
+                    <!-- Flores -->
+                    <input type="radio" name="bandtyp" id="6" class="hidebx deco" value="flores">
+                    <label for="6" class="lbl-radio">
+                        <div class="display-box">
+                            <div> <img class="custom__container--img" src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/64/000000/external-flowers-valentines-day-flatart-icons-flat-flatarticons.png"/> </div>
+                            <div class="description">Flores</div>
+                        </div>
+                    </label>
+                    <!-- Madera -->
+                    <input type="radio" name="bandtyp" id="7" class="hidebx deco" value="madera">
+                    <label for="7" class="lbl-radio">
+                        <div class="display-box">
+                            <div> <img class="custom__container--img" src="https://img.icons8.com/emoji/48/000000/wood-emoji.png"/> </div>
+                            <div class="description">Madera</div>
+                        </div>
+                    </label>
+                    <!-- Festiva -->
+                    <input type="radio" name="bandtyp" id="8" class="hidebx deco" value="festiva">
+                    <label for="8" class="lbl-radio">
+                        <div class="display-box">
+                            <div> <img class="custom__container--img" src="https://img.icons8.com/external-flatart-icons-lineal-color-flatarticons/64/000000/external-candle-usa-flatart-icons-lineal-color-flatarticons.png"/></div>
+                            <div class="description">Festiva</div>
+                        </div>
+                    </label>
+                </form>
+            </div>
+            <div id = "ticketFinal" class="custom__paper">
+                <div class="custom__paper--title">
+                    Resúmen de la compra
+                </div>
+                <h4 id="precio">Precio $0</h4>
+                <div id="resumen">
+                    <ul id="lista">Productos seleccionados: 
+
+                    </ul>
+                    <label for="descuento">ingrese cupón de descuento</label>
+                    <input id="descuento" type="text" class="ingreso_desc">
+                    <p id="mensajeDesc"> </p>
+                    <button id="btn_desc"type="reset" class= "custom__btn">Aplicar!</button>
+                    <br>
+
+                </div>
+                
+                
+                
+
+                <div class="custom__paper--title">
+                    <h4 id="precio_final" class="custom__paper--title"> Monto Final: $0</h4>
+                    <div class="container__btn">
+                        <a class= "custom__btn" id="btn__finalizar" href="#listaVelasFinal">Finalizar Compra</a>
+                    </div>
+                </div>
+                
+
+            </div>
+
+        </section>
+
+        <div class="container__btn">
+            <button class= "custom__btn" id="btn" >AGREGAR PRODUCTO</button>
+            
+            <button class= "custom__btn" id="btn_eliminar" >ELIMINAR PRODUCTOS</button>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 id=tituloVelasFinal></h2><br>
+                    <div id="listaVelasFinal"></div>
+                </div>
+            </div>
+        </div>
+        
+            
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./JS/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+
+
+</body>
